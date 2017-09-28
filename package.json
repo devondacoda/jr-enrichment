@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.5",
+    "nunjucks": "^3.0.1",
     "pg": "^7.3.0",
     "sequelize": "^4.11.1"
   },
