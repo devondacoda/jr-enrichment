@@ -25,13 +25,13 @@ Teachers must have:
 Write the necessary Express routes for the following db interactions:
 
 ```
-- GET all students and return a json of all students
-- GET all teacehrs and return a json of all students
-- GET student by ID # and return a json of that student
-- GET teacher by ID # and return a json of that teacher
-- GET all students for a specific teacher's ID #
-- DELETE a student and return a status code of 202
-- UPDATE a student's teacher and return a status code of 204
+- GET all students and return a json of all students --DONE
+- GET all teachers and return a json of all students --DONE
+- GET student by ID # and return a json of that student --DONE
+- GET teacher by ID # and return a json of that teacher --DONE
+- GET all students for a specific teacher's ID # --DONE
+- DELETE a student and return a status code of 202 --DONE
+- UPDATE a student's teacher and return a status code of 204 --DONE
 ```
 
 

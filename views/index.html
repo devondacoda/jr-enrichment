@@ -14,11 +14,18 @@
     <!-- <div id="teacher-btn">
       <button>Teacher</button>
     </div> -->
-    <form action="student">
+    <form action="students">
       <input type="submit" value="Student"/>
     </form>
-    <form action="teacher">
-        <input type="submit" value="Teacher"/>
+    <form action="students/findStudents">
+      <p> Find students for specific student</p>
+      <input id="tchr-id" type="text" placeholder="Enter teacher's ID">
+      <input type="submit" value="Search"/>
     </form>
+    <form action="teachers">
+      <input type="submit" value="Teacher"/>
+    </form>
+    
+    <script src="../studentRoute.js"></script>
   </body>
 </html>
